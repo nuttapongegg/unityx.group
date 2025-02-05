@@ -1,0 +1,68 @@
+.owl-carousel {
+    position: relative;
+      height: 100vh;
+      overflow: hidden;
+  }
+  .owl-carousel div:not(.owl-controls) {
+    height: 100%;
+  }
+  .owl-carousel .owl-slide {
+  /*  background-image: url("../../images/banner.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .owl-carousel div.owl--text {
+    position: absolute;
+    bottom: 4em;
+    left: 2em;
+    width: 20em;
+    height: 8em;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+  }
+  .owl-carousel .owl-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+  }
+  .owl-carousel .owl-controls .owl-buttons div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
+    zoom: 1;
+    margin: 0;
+    width: 150px;
+    height: 20px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 3px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0);
+    opacity: .6;
+    text-transform: capitalize;
+  }
+  .owl-carousel .owl-controls .owl-buttons .owl-prev {
+    left: 5px;
+      background: url(images-icon/prev.png) no-repeat;
+      background-size: 100%;
+  }
+  .owl-carousel .owl-controls .owl-buttons .owl-next {
+    right: 5px;
+      background: url(images-icon/next.png) no-repeat;
+          background-size: 100%;
+      
+  } 
+  .owl-pagination{
+          position: absolute;
+      bottom: 100%;
+      margin: 0 auto;
+      width: 100%;
+  }
+  
+  
+  
