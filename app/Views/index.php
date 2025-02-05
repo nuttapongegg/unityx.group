@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Data Center & Cloud Service Provider in Thailand & ASEAN | UNITY</title>
+	<title>UNITY X</title>
 	<meta name="title" content="Data Center & Cloud Service Provider in Thailand and ASEAN | UNITY">
 	<meta name="robot" content="index/follow">
 
