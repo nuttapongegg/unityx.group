@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>UNITY X</title>
-	<meta name="title" content="Data Center & Cloud Service Provider in Thailand and ASEAN | UNITY">
+	<meta name="title" content="UNITY X">
 	<meta name="robot" content="index/follow">
 
 	<link rel="icon" type="image/png" sizes="192x192" href="/assets/images/logo-192.png">
@@ -16,9 +16,9 @@
 	<meta name="msapplication-TileColor" content="#000000">
 	<meta name='mobile-web-app-capable' content='yes'>
 	<meta name='apple-mobile-web-app-capable' content='yes'>
-	<meta name='application-name' content='UNITY'>
+	<meta name='application-name' content='UNITY X'>
 	<meta name='apple-mobile-web-app-status-bar-style' content='black'>
-	<meta name='apple-mobile-web-app-title' content='UNITY'>
+	<meta name='apple-mobile-web-app-title' content='UNITY X'>
 	<meta name="msapplication-TileImage" content="/assets/images/logo-192.png">
 	<meta name="theme-color" content="#000000">
 
@@ -63,8 +63,8 @@
 
 	<meta property="og:url" content="javascript:void(0);">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Data Center & Cloud Service Provider in Thailand and ASEAN | UNITY">
-	<meta property="og:description" content="UNITY is AI-ready data center and a multi-cloud provider who offer wide-range digital infrastructure solutions to all sizes of Thai and international business.">
+	<meta property="og:title" content="UNITY X">
+	<meta property="og:description" content="UNITY X">
 
 </head>
 <style>
