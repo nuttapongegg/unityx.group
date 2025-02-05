@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>UNITY X</title>
 	<meta name="title" content="UNITY X">
+	<meta name="description"  content="UNITY X" />
 	<meta name="robot" content="index/follow">
 
 	<link rel="icon" type="image/png" sizes="192x192" href="/assets/images/logo-192.png">
