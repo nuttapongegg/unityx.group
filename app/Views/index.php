@@ -79,7 +79,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Data Center & Cloud Service Provider in Thailand and ASEAN | UNITY">
 	<meta property="og:description" content="UNITY is AI-ready data center and a multi-cloud provider who offer wide-range digital infrastructure solutions to all sizes of Thai and international business.">
-	<meta property="og:image" content="https://www.trueidc.com/th/images/OG-Image-TrueIDC-2024.jpg">
+	<!-- <meta property="og:image" content="https://www.trueidc.com/th/images/OG-Image-TrueIDC-2024.jpg"> -->
 
 </head>
 <style>
@@ -247,7 +247,7 @@
 						<a href="javascript:void(0);" id="mnbg1">ข่าวและบทความ</a>
 						<a href="javascript:void(0);" id="mnbg2">ติดต่อทรูไอดีซี</a>
 						<a style="background: none;"><span class="line-right"></span></a>
-						<a href="/th/index" class="language lang active">TH</a>
+						<a href="javascript:void(0);" class="language lang active">TH</a>
 						<!-- <a href="/en/index" class="language lang ">EN</a> -->
 					</div>
 				</nav>
@@ -759,17 +759,17 @@
 							</div>
 						</div>
 						<div class="item">
+							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/POS1.png)"></div>
+							<div class="banner-mobile">
+								<img class="lazyload" data-src="assets/images/POS2.png" alt="">
+							</div>
+						</div>
+						<!-- <div class="item">
 							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/97-image_th-6353.png)"></div>
 							<div class="banner-mobile">
 								<img class="lazyload" data-src="assets/images/97-imagem_th-7654.png" alt="">
 							</div>
-						</div>
-						<div class="item">
-							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/97-image_th-6353.png)"></div>
-							<div class="banner-mobile">
-								<img class="lazyload" data-src="assets/images/97-imagem_th-7654.png" alt="">
-							</div>
-						</div>
+						</div> -->
 					</div>
 					<!-- vdo -->
 					<script>
@@ -804,13 +804,20 @@
 				<div class="box-whatwedoL" data-aos="fade-up" data-aos-duration="1000">
 					<h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">บริการของเรา</h3>
 					<div class="box-topic clear-pdb">
-						<h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">UNITY </h3>
+						<h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">UNITY X</h3>
 					</div>
 					<div class="line-topic" data-aos="fade-left-right" data-aos-duration="1000" data-aos-delay="600"></div>
 					<div class="clear"></div>
 
 					<p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
-						ผู้ให้บริการดาต้าเซ็นเตอร์อันดับหนึ่งของไทยที่พร้อมรองรับการทำงานของ AI ด้วยกำลังไฟฟ้าขนาดใหญ่กว่า 60 เมกะวัตต์ และเป็นผู้ให้บริการระบบคลาวด์ระดับโลกหลากหลายแบรนด์ เราพร้อมส่งมอบโครงสร้างพื้นฐานดิจิทัลที่ครอบคลุมธุรกิจทุกขนาดทั้งธุรกิจไทยและธุรกิจต่างชาติด้วยการการันตีว่าข้อมูลของลูกค้าจะถูกจัดเก็บอย่างปลอดภัยภายใต้การดำเนินงานตามมาตรฐานสากล
+						เราพร้อมนำเสนอบริการที่ครอบคลุมทุกความต้องการ ด้วยนวัตกรรมล้ำสมัยและโซลูชันที่ตอบโจทย์ยุคดิจิทัล
+						ไม่ว่าคุณจะมองหาเทคโนโลยีเพื่อยกระดับการใช้ชีวิต การดำเนินธุรกิจ หรือการสร้างสรรค์สิ่งใหม่ ๆ
+						บริการของเราถูกออกแบบมาเพื่อตอบสนองทุกความต้องการของคุณอย่างมีประสิทธิภาพ
+						เรามุ่งมั่นที่จะช่วยให้คุณก้าวล้ำไปอีกขั้นด้วยระบบที่ใช้งานง่าย สะดวก และปลอดภัย
+						พร้อมทั้งใส่ใจในสิ่งแวดล้อมเพื่อสร้างอนาคตที่ยั่งยืน
+						ไม่ว่าจะเป็นการนำเข้าและจัดจำหน่ายยานยนต์ไฟฟ้าอันทันสมัย การพัฒนาโซลูชันสำหรับภาคการเกษตรอัจฉริยะ
+						การใช้ AI เพื่อเพิ่มประสิทธิภาพในการสื่อสาร หรือการจัดการธุรกิจด้วยระบบ POS ที่ล้ำหน้า
+						ทุกบริการของเราถูกออกแบบมาเพื่อให้คุณสามารถก้าวสู่ความสำเร็จได้อย่างมั่นใจในทุกมิติของชีวิตและธุรกิจ
 					</p>
 					<div class="clear"></div>
 				</div>
@@ -895,66 +902,66 @@
 				<div class="content">
 					<div class="box-our-data">
 						<div class="box-topic clear-pdb">
-							<h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">ที่ตั้งดาต้าเซ็นเตอร์</h3>
+							<h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">ที่ตั้งธุรกิจ</h3>
 						</div>
 						<div class="line-topic" data-aos="fade-left-right" data-aos-duration="1000" data-aos-delay="200"></div>
 						<div class="clear"></div>
 						<p class="data" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-							ดาต้าเซ็นเตอร์ของเราพร้อมให้บริการครอบคลุมจุดศูนย์กลางธุรกิจหลัก ทั้งในประเทศไทยและประเทศในแถบอาเซียน
+							เรามีที่ตั้งธุรกิจสำคัญในประเทศไทยและลาว เพื่อให้บริการเทคโนโลยีและนวัตกรรมที่ตอบโจทย์ความต้องการของลูกค้าทุกระดับ พร้อมสร้างความเชื่อมั่นและผลักดันการเติบโตของธุรกิจในยุคดิจิทัล
 						</p>
 						<div class="clear"></div>
 						<ul>
-							<h2 class="txt-sub" style="color: #ec1c24; margin-top: 30px; font-size:30px">Thailand</h2>
-							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200">
-								<figure class="snip1264"> <img data-src="/assets/images/location/UNITY X.png" alt="" class="lazyload">
-									<figcaption>
-										<h3>ทรู ไอดีซี-นอร์ท เมืองทอง</h3>
-										<p>ศูนย์ดาต้าเซ็นเตอร์ที่ครอบคลุมย่านธุรกิจฝั่งเหนือและศูนย์ราชการที่สำคัญและมีศูนย์ปฏิบัติการเฝ้าระวังระบบไอที (Regional Command Center) แบบครบวงจร</p>
-									</figcaption>
-									<h2>ทรู ไอดีซี-นอร์ท เมืองทอง</h2>
-								</figure>
-								<div class="clear"></div>
-							</li>
+							<h2 class="txt-sub" style="color: #ec1c24; margin-top: 30px; font-size:30px">Laos</h2>
 							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="400">
 								<figure class="snip1264"> <img data-src="/assets/images/location/EVX.png" alt="UNITY" class="lazyload">
 									<figcaption>
-										<h3>ทรู ไอดีซี-อีสต์ บางนา</h3>
-										<p>ศูนย์ดาต้าเซ็นเตอร์แบบเดี่ยว (Stand Alone) ครอบคลุมพื้นที่ธุรกิจฝั่งตะวันออกของกรุงเทพ ได้รับมาตรฐาน Uptime Tier 3 ทั้งด้าน Design Facilities และ Operations พร้อมด้วยระบบรักษาความปลอดภัย 10 ระดับ</p>
+										<h3>EVX AUTO IMPORT</h3>
+										<p> อนาคตของยานยนต์ไฟฟ้าอยู่ที่นี่! 🚗⚡EVX AUTO IMPORT: ศูนย์รวม EV ชั้นนำจากทั่วโลก 🌍 มาร่วมขับเคลื่อนอนาคตไปกับ EVX AUTO IMPORT – ผู้นำด้าน EV ที่คุณวางใจ!</p>
 									</figcaption>
-									<h2>ทรู ไอดีซี-อีสต์ บางนา</h2>
+									<h2>EVX AUTO IMPORT</h2>
+								</figure>
+								<div class="clear"></div>
+							</li>
+							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200">
+								<figure class="snip1264"> <img data-src="/assets/images/location/FarmX.png" alt="" class="lazyload">
+									<figcaption>
+										<h3>Smart Farm</h3>
+										<p>เกษตรอัจฉริยะ เปลี่ยนอนาคตของการเพาะปลูก 🌱🚜 เพิ่มผลผลิต ลดต้นทุน ด้วยเทคโนโลยี Smart Farm</p>
+									</figcaption>
+									<h2>Smart Farm</h2>
 								</figure>
 								<div class="clear"></div>
 							</li>
 							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="600">
 								<figure class="snip1264"> <img data-src="/assets/images/location/POSX1.png" alt="" class="lazyload">
 									<figcaption>
-										<h3>ทรู ไอดีซี-มิดทาวน์ รัชดา</h3>
-										<p>ตั้งอยู่ใจกลางเมืองครอบคลุมย่านธุรกิจเทคโนโลยีและดิจิทัล การเดินทางสะดวกสบายใกล้สถานีรถไฟฟ้า</p>
+										<h3>POS X</h3>
+										<p>ระบบจุดขายอัจฉริยะที่ช่วยให้การขายง่ายขึ้น 🛍 จัดการร้านค้าของคุณได้ง่ายขึ้นด้วย POS X – ระบบที่ช่วยให้ทุกการขายเป็นเรื่องง่าย!</p>
 									</figcaption>
-									<h2>ทรู ไอดีซี-มิดทาวน์ รัชดา</h2>
+									<h2>POS X</h2>
+								</figure>
+								<div class="clear"></div>
+							</li>
+						</ul>
+						<ul class="right">
+							<h2 class="txt-sub" style="color: #ec1c24; margin-top: 30px;font-size:30px">Thailand</h2>
+							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200">
+								<figure class="snip1264"> <img data-src="/assets/images/location/UNITY X.png" alt="" class="lazyload">
+									<figcaption>
+										<h3>UNITY X</h3>
+										<p>UNITY X เป็นบริษัทเทคโนโลยีที่มุ่งพัฒนาโซลูชันดิจิทัลและนวัตกรรมทันสมัยเพื่อสนับสนุนธุรกิจ ด้วยการใช้เทคโนโลยีขั้นสูงในการสร้างแอปพลิเคชันและระบบสารสนเทศที่ตอบโจทย์ความต้องการของลูกค้า</p>
+									</figcaption>
+									<h2>UNITY X</h2>
 								</figure>
 								<div class="clear"></div>
 							</li>
 							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="800">
 								<figure class="snip1264"> <img data-src="/assets/images/location/POSX2.png" alt="" class="lazyload">
 									<figcaption>
-										<h3>ทรู ไอดีซี-มิดทาวน์ พัฒนาการ</h3>
-										<p>ศูนย์ดาต้าเซ็นเตอร์ที่ปลอดภัยจากภัยธรรมชาติและตั้งอยู่ใกล้สนามบินนานาชาติสุวรรณภูมิ พร้อมเปิดรับการเชื่อมต่อด้วยโครงข่ายขนาดใหญ่ทุกรูปแบบ</p>
+										<h3>POS X</h3>
+										<p>ระบบจุดขายอัจฉริยะที่ช่วยให้การขายง่ายขึ้น 🛍 จัดการร้านค้าของคุณได้ง่ายขึ้นด้วย POS X – ระบบที่ช่วยให้ทุกการขายเป็นเรื่องง่าย!</p>
 									</figcaption>
-									<h2>ทรู ไอดีซี-มิดทาวน์ พัฒนาการ</h2>
-								</figure>
-								<div class="clear"></div>
-							</li>
-						</ul>
-						<ul class="right">
-							<h2 class="txt-sub" style="color: #ec1c24; margin-top: 30px;font-size:30px">Laos</h2>
-							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200">
-								<figure class="snip1264"> <img data-src="/assets/images/location/FarmX.png" alt="" class="lazyload">
-									<figcaption>
-										<h3>ทรู ไอดีซี-เมียนมาร์</h3>
-										<p>ดาต้าเซ็นเตอร์เชิงพาณิชย์แห่งแรกในประเทศเมียนมาร์ ให้บริการด้วยมาตรฐานอุตสาหกรรม และยังมีที่ตั้งที่สะดวก พร้อมดูแลความต้องการของลุกค้าอย่างรวดเร็ว</p>
-									</figcaption>
-									<h2>ทรู ไอดีซี-เมียนมาร์</h2>
+									<h2>POS X</h2>
 								</figure>
 								<div class="clear"></div>
 							</li>
@@ -1195,9 +1202,9 @@
 							<p class="color-white width-respon-clound" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">คลาวด์คอมมิวนิตี้ของผู้นำเทรนด์ พื้นที่พบปะเพื่อนใหม่ อัปเดตเทรนด์คลาวด์จากผู้ให้บริการคลาวด์ตัวจริง ไม่ว่าจะเป็น Alibaba Cloud, AWS, Google Cloud, Huawei Cloud, Microsoft Azure, Tencent Cloud และอีกมากมาย</p>
 							<div class="box-button" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
 								<div id="defnic" class=" gps-button-wrapper">
-									<a href="https://www.trueidc.com/th/cloudtalk/cloudtalk" target="_blank">
+									<!-- <a href="https://www.trueidc.com/th/cloudtalk/cloudtalk" target="_blank">
 										<button class="red btn-red">อ่านเพิ่มเติม</button>
-									</a>
+									</a> -->
 								</div>
 							</div>
 						</div>
@@ -1222,22 +1229,22 @@
 								<a href="javascript:void(0);">โครงสร้างเว็บไซต์ <i class="fas fa-chevron-down icn-arrow-ft"></i></a>
 							</div>
 							<div class="box03">
-								<a href="https://www.facebook.com/trueidc.thailand/" rel="noopener" target="_blank">
+								<a href="javascript:void(0);" rel="noopener">
 									<div class="swap-on-hover">
-										<img class="swap-on-hover__front-image lazyload" data-src="https://www.trueidc.com/th/images/icon/icn-fb.png" alt="UNITY">
-										<img class="swap-on-hover__back-image lazyload" data-src="https://www.trueidc.com/th/images/icon/icn-fb-hover.png" alt="UNITY">
+										<img class="swap-on-hover__front-image lazyload" data-src="/assets/images/icon/icn-fb.png" alt="UNITY">
+										<img class="swap-on-hover__back-image lazyload" data-src="/assets/images/icon/icn-fb-hover.png" alt="UNITY">
 									</div>
 								</a>
-								<a href="https://www.youtube.com/channel/UCHpRur1Z1mfdbT05loICj7g" rel="noopener" target="_blank">
+								<a href="javascript:void(0);" rel="noopener">
 									<div class="swap-on-hover">
-										<img class="swap-on-hover__front-image lazyload" data-src="https://www.trueidc.com/th/images/icon/icn-youtube.png" alt="UNITY">
-										<img class="swap-on-hover__back-image lazyload" data-src="https://www.trueidc.com/th/images/icon/icn-youtube-hover.png" alt="UNITY">
+										<img class="swap-on-hover__front-image lazyload" data-src="/assets/images/icon/icn-youtube.png" alt="UNITY">
+										<img class="swap-on-hover__back-image lazyload" data-src="/assets/images/icon/icn-youtube-hover.png" alt="UNITY">
 									</div>
 								</a>
-								<a href="https://th.linkedin.com/company/true-internet-data-center" rel="noopener" target="_blank">
+								<a href="javascript:void(0);" rel="noopener">
 									<div class="swap-on-hover">
-										<img class="swap-on-hover__front-image lazyload" data-src="https://www.trueidc.com/th/images/icon/linkedin.png" alt="UNITY">
-										<img class="swap-on-hover__back-image lazyload" data-src="https://www.trueidc.com/th/images/icon/linkedin-2.png" alt="UNITY">
+										<img class="swap-on-hover__front-image lazyload" data-src="/assets/images/icon/linkedin.png" alt="UNITY">
+										<img class="swap-on-hover__back-image lazyload" data-src="/assets/images/icon/linkedin-2.png" alt="UNITY">
 									</div>
 								</a>
 								<div class="clear"></div>
@@ -1451,7 +1458,7 @@
 					</div>
 					<a id="button-top"><i class="fas fa-chevron-up" style="padding: 12px;"></i></a>
 					<!-- Cookies Accept BEGIN -->
-					<!-- <script src="https://www.trueidc.com/th/js/jquery.cookieMessage.min.js"></script>
+					<!-- <script src="/assets/js/jquery.cookieMessage.min.js"></script>
 			<script type="text/javascript">
 				$.cookieMessage({
 					mainMessage: '<h2>คุกกี้</h2>เว็บไซต์นี้ได้ทำการจัดเก็บคุกกี้เพื่อให้คุณได้รับประสบการณ์ที่ดีที่สุด โปรดยอมรับเงื่อนไขก่อนใช้งานเว็บไซต์ <a href="https://www.trueidc.com/th/cookies-policy" target="_blank">เรียนรู้เพิ่มเติม</a> ',
@@ -1500,9 +1507,9 @@
 							});
 						});
 					</script>
-					<script src="https://www.trueidc.com/th/js/lazysizes.min.js" async></script>
-					<link rel="stylesheet" href="https://www.trueidc.com/th/js/fancybox/jquery.fancybox.min.css">
-					<script type="text/javascript" src="https://www.trueidc.com/th/js/fancybox/jquery.fancybox.min.js" async></script>
+					<script src="/assets/js/lazysizes.min.js" async></script>
+					<link rel="stylesheet" href="/assets/js/fancybox/jquery.fancybox.min.css">
+					<script type="text/javascript" src="/assets/js/fancybox/jquery.fancybox.min.js" async></script>
 					<div class="clear"></div>
 				</div>
 				<div class="clear"></div>

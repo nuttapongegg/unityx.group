@@ -1,4 +1,1 @@
-AOS.init({
-    duration: 800,
-    easing: 'slide'
-});
+AOS.init({duration:800,easing:"slide"});
