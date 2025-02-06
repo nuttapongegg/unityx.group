@@ -247,7 +247,7 @@
 				</div>
 				<div class="burger-menu">
 					<header class="site-header">
-						<!-- <button class="button-burger" aria-label="Menu"> -->
+						<button class="button-burger" aria-label="Menu">
 						<span class="bar bar-1"></span>
 						<span class="bar bar-2"></span>
 						<span class="bar bar-3"></span>
