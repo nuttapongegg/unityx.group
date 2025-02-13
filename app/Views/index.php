@@ -336,6 +336,24 @@
 								<img class="lazyload" data-src="assets/images/POS2.png" alt="">
 							</div>
 						</div>
+						<div class="item">
+							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/HomeX_Dectop.png)"></div>
+							<div class="banner-mobile">
+								<img class="lazyload" data-src="assets/images/HomeX_mobile.png" alt="">
+							</div>
+						</div>
+						<div class="item">
+							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/SolarX_dectop.png)"></div>
+							<div class="banner-mobile">
+								<img class="lazyload" data-src="assets/images/SolarX_mobile.png" alt="">
+							</div>
+						</div>
+						<div class="item">
+							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/SmartX.png)"></div>
+							<div class="banner-mobile">
+								<img class="lazyload" data-src="assets/images/SmartX_mobile.png" alt="">
+							</div>
+						</div>
 					</div>
 					<!-- vdo -->
 					<script>
@@ -498,6 +516,26 @@
 								</figure>
 								<div class="clear"></div>
 							</li>
+							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200">
+								<figure class="snip1264"> <img data-src="/assets/images/location/HomeX.png" alt="" class="lazyload">
+									<figcaption>
+										<h3>HomeX</h3>
+										<p>ระบบบริหารโครงการก่อสร้างอัจฉริยะด้วย AI 🏗️🤖ควบคุม ติดตาม และวางแผนงานก่อสร้างได้ง่ายขึ้นด้วย HomeX</p>
+									</figcaption>
+									<h2>HomeX</h2>
+								</figure>
+								<div class="clear"></div>
+							</li>
+							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200">
+								<figure class="snip1264"> <img data-src="/assets/images/location/Solar_X.png" alt="" class="lazyload">
+									<figcaption>
+										<h3>SolarX</h3>
+										<p>พลังงานสะอาดเพื่อโลกที่ยั่งยืน ☀️🔋เปลี่ยนแสงอาทิตย์ให้เป็นพลังงาน ลดค่าใช้จ่าย สร้างอนาคตที่ยั่งยืน</p>
+									</figcaption>
+									<h2>SolarX</h2>
+								</figure>
+								<div class="clear"></div>
+							</li>
 							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="600">
 								<figure class="snip1264"> <img data-src="/assets/images/location/POSX1.png" alt="" class="lazyload">
 									<figcaption>
@@ -512,12 +550,22 @@
 						<ul class="right">
 							<h2 class="txt-sub" style="color: #00c7e6; margin-top: 30px;font-size:30px">Thailand</h2>
 							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200">
-								<figure class="snip1264"> <img data-src="/assets/images/location/UNITY X.png" alt="" class="lazyload">
+								<figure class="snip1264"> <img data-src="/assets/images/location/UNITY_X.png" alt="" class="lazyload">
 									<figcaption>
 										<h3>UNITY X</h3>
 										<p>UNITY X เป็นบริษัทเทคโนโลยีที่มุ่งพัฒนาโซลูชันดิจิทัลและนวัตกรรมทันสมัยเพื่อสนับสนุนธุรกิจ ด้วยการใช้เทคโนโลยีขั้นสูงในการสร้างแอปพลิเคชันและระบบสารสนเทศที่ตอบโจทย์ความต้องการของลูกค้า</p>
 									</figcaption>
 									<h2>UNITY X</h2>
+								</figure>
+								<div class="clear"></div>
+							</li>
+							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="800">
+								<figure class="snip1264"> <img data-src="/assets/images/location/Smart_X.png" alt="" class="lazyload">
+									<figcaption>
+										<h3>Smart Home</h3>
+										<p>บ้านอัจฉริยะที่ให้คุณควบคุมทุกอย่างได้เพียงปลายนิ้วสัมผัส 🏡🤖เปลี่ยนบ้านธรรมดาให้กลายเป็นบ้านอัจฉริยะด้วยระบบ Smart Home</p>
+									</figcaption>
+									<h2>Smart Home</h2>
 								</figure>
 								<div class="clear"></div>
 							</li>
