@@ -354,6 +354,18 @@
 								<img class="lazyload" data-src="assets/images/SmartX_mobile.png" alt="">
 							</div>
 						</div>
+						<div class="item">
+							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/EVX_dectop.png)"></div>
+							<div class="banner-mobile">
+								<img class="lazyload" data-src="assets/images/EVX_mobile.png" alt="">
+							</div>
+						</div>
+						<div class="item">
+							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/Smartfarm_dectop.png)"></div>
+							<div class="banner-mobile">
+								<img class="lazyload" data-src="assets/images/Smartfarm_Mobile.png" alt="">
+							</div>
+						</div>
 					</div>
 					<!-- vdo -->
 					<script>
