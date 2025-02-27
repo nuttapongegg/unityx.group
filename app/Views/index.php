@@ -361,9 +361,9 @@
 							</div>
 						</div>
 						<div class="item">
-							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/Smartfarm_dectop.png)"></div>
+							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/SmartfarmX_dectop.png)"></div>
 							<div class="banner-mobile">
-								<img class="lazyload" data-src="assets/images/Smartfarm_Mobile.png" alt="">
+								<img class="lazyload" data-src="assets/images/SmartfarmX_Mobile.png" alt="">
 							</div>
 						</div>
 					</div>
