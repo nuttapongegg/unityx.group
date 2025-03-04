@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>UNITY X</title>
 	<meta name="title" content="UNITY X">
-	<meta name="description"  content="UNITY X" />
+	<meta name="description" content="UNITY X" />
 	<meta name="robot" content="index/follow">
 
 	<link rel="icon" type="image/png" sizes="192x192" href="/assets/images/logo-192.png">
@@ -162,6 +162,33 @@
 			width: 100%;
 		}
 	}
+
+	/* สำหรับมือถือ */
+	.mobile {
+		display: block;
+		/* หรือแสดงผลในแบบที่เหมาะสม */
+	}
+
+	/* สำหรับเดสก์ท็อป */
+	.desktop {
+		display: block;
+		/* หรือแสดงผลในแบบที่เหมาะสม */
+	}
+
+	/* การซ่อนในอุปกรณ์ที่ไม่จำเป็น */
+	@media (max-width: 768px) {
+		.desktop {
+			display: none;
+			/* ซ่อนในมือถือ */
+		}
+	}
+
+	@media (min-width: 769px) {
+		.mobile {
+			display: none;
+			/* ซ่อนในเดสก์ท็อป */
+		}
+	}
 </style>
 
 <style>
@@ -227,12 +254,14 @@
 						<a href="javascript:void(0);" title="UNITY"><img src="/assets/images/logo.png" class="logo" alt="UNITY"></a>
 					</div>
 					<div class="menu-R">
-						<a href="javascript:void(0);" id="toggle-menu" class="toggle">บริการ <img src="/assets/images/icon/angle-arrow-down.svg" alt="UNITY" class="size-arrow"></a>
-						<a href="javascript:void(0);" id="mnbg1">ข่าวและบทความ</a>
-						<a href="javascript:void(0);" id="mnbg2">ติดต่อเรา</a>
+						<a href="javascript:void(0);" id="serve" class="toggle"><img src="/assets/images/icon/angle-arrow-down.svg" alt="UNITY" class="size-arrow"></a>
+						<a href="javascript:void(0);" id="News"></a>
+						<a href="javascript:void(0);" id="header_contact"></a>
 						<a style="background: none;"><span class="line-right"></span></a>
-						<a href="javascript:void(0);" class="language lang active">TH</a>
-						<!-- <a href="/en/index" class="language lang ">EN</a> -->
+						<!-- เมนูเลือกภาษา -->
+						<a href="javascript:void(0);" class="language lang" onclick="setLanguage('th'); return false;">TH</a>
+						<a href="javascript:void(0);" class="language lang" onclick="setLanguage('lao'); return false;">LAO</a>
+
 					</div>
 				</nav>
 				<div class="clear"></div>
@@ -241,16 +270,18 @@
 				<div>
 					<div class="float-left position-logo"><a href="javascript:void(0);" title="UNITY"><img src="/assets/images/logo.png" alt="UNITY"></a></div>
 					<div class="box-language-respon">
-						<a href="javascript:void(0);" class="language-respon active">TH</a>
-						<!-- <a href="/en/index" class="language-respon ">EN</a> -->
+						<!-- เมนูเลือกภาษา -->
+						<a href="javascript:void(0);" class="language lang" onclick="setLanguage('th'); return false;">TH</a>
+						<a href="javascript:void(0);" class="language lang" style="margin-left: 8px;" onclick="setLanguage('lao'); return false;">LAO</a>
+
 					</div>
 				</div>
 				<div class="burger-menu">
 					<header class="site-header">
 						<button class="button-burger" aria-label="Menu">
-						<span class="bar bar-1"></span>
-						<span class="bar bar-2"></span>
-						<span class="bar bar-3"></span>
+							<span class="bar bar-1"></span>
+							<span class="bar bar-2"></span>
+							<span class="bar bar-3"></span>
 						</button>
 					</header>
 				</div>
@@ -325,39 +356,39 @@
 				<div class="columns">
 					<div class="fadeOut owl-carousel owl-theme" id="owl-banner">
 						<div class="item">
-							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/97-image_th-6353.png)"></div>
+							<div class="banner-pc" id="banner1" style="background-size: cover; background-position: bottom;"></div>
 							<div class="banner-mobile">
-								<img class="lazyload" data-src="assets/images/97-imagem_th-7654.png" alt="">
+								<img id="mobile_banner1" class="lazyload" data-src="" alt="">
 							</div>
 						</div>
 						<div class="item">
-							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/POS1.png)"></div>
+							<div class="banner-pc" id="banner2" style="background-size: cover; background-position: bottom;"></div>
 							<div class="banner-mobile">
-								<img class="lazyload" data-src="assets/images/POS2.png" alt="">
+								<img id="mobile_banner2" class="lazyload" data-src="" alt="">
 							</div>
 						</div>
 						<div class="item">
-							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/HomeX_Dectop.png)"></div>
+							<div class="banner-pc" id="banner3" style="background-size: cover; background-position: bottom;"></div>
 							<div class="banner-mobile">
-								<img class="lazyload" data-src="assets/images/HomeX_mobile.png" alt="">
+								<img id="mobile_banner3" class="lazyload" data-src="" alt="">
 							</div>
 						</div>
 						<div class="item">
-							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/SolarX_dectop.png)"></div>
+							<div class="banner-pc" id="banner4" style="background-size: cover; background-position: bottom;"></div>
 							<div class="banner-mobile">
-								<img class="lazyload" data-src="assets/images/SolarX_mobile.png" alt="">
+								<img id="mobile_banner4" class="lazyload" data-src="" alt="">
 							</div>
 						</div>
 						<div class="item">
-							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/SmartX.png)"></div>
+							<div class="banner-pc" id="banner5" style="background-size: cover; background-position: bottom;"></div>
 							<div class="banner-mobile">
-								<img class="lazyload" data-src="assets/images/SmartX_mobile.png" alt="">
+								<img id="mobile_banner5" class="lazyload" data-src="" alt="">
 							</div>
 						</div>
 						<div class="item">
-							<div class="banner-pc" style="background-size: cover; background-position: bottom; background-image: url(assets/images/EVX_dectop.png)"></div>
+							<div class="banner-pc" id="banner6" style="background-size: cover; background-position: bottom;"></div>
 							<div class="banner-mobile">
-								<img class="lazyload" data-src="assets/images/EVX_mobile.png" alt="">
+								<img id="mobile_banner6" class="lazyload" data-src="" alt="">
 							</div>
 						</div>
 						<div class="item">
@@ -398,23 +429,14 @@
 			<section data-name="section02">
 				<div class="box-whatwedo"></div>
 				<div class="box-whatwedoL" data-aos="fade-up" data-aos-duration="1000">
-					<h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">บริการของเรา</h3>
+					<h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" id="serviceTitle"></h3>
 					<div class="box-topic clear-pdb">
 						<h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">UNITY X</h3>
 					</div>
 					<div class="line-topic" data-aos="fade-left-right" data-aos-duration="1000" data-aos-delay="600"></div>
 					<div class="clear"></div>
 
-					<p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
-						เราพร้อมนำเสนอบริการที่ครอบคลุมทุกความต้องการ ด้วยนวัตกรรมล้ำสมัยและโซลูชันที่ตอบโจทย์ยุคดิจิทัล
-						ไม่ว่าคุณจะมองหาเทคโนโลยีเพื่อยกระดับการใช้ชีวิต การดำเนินธุรกิจ หรือการสร้างสรรค์สิ่งใหม่ ๆ
-						บริการของเราถูกออกแบบมาเพื่อตอบสนองทุกความต้องการของคุณอย่างมีประสิทธิภาพ
-						เรามุ่งมั่นที่จะช่วยให้คุณก้าวล้ำไปอีกขั้นด้วยระบบที่ใช้งานง่าย สะดวก และปลอดภัย
-						พร้อมทั้งใส่ใจในสิ่งแวดล้อมเพื่อสร้างอนาคตที่ยั่งยืน
-						ไม่ว่าจะเป็นการนำเข้าและจัดจำหน่ายยานยนต์ไฟฟ้าอันทันสมัย การพัฒนาโซลูชันสำหรับภาคการเกษตรอัจฉริยะ
-						การใช้ AI เพื่อเพิ่มประสิทธิภาพในการสื่อสาร หรือการจัดการธุรกิจด้วยระบบ POS ที่ล้ำหน้า
-						ทุกบริการของเราถูกออกแบบมาเพื่อให้คุณสามารถก้าวสู่ความสำเร็จได้อย่างมั่นใจในทุกมิติของชีวิตและธุรกิจ
-					</p>
+					<p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" id="serviceTitle_Text"></p>
 					<div class="clear"></div>
 				</div>
 				<div class="box-whatwedoR">
@@ -427,7 +449,7 @@
 											<h4>EVX AUTO IMPORT
 												<div class="border-bottom"></div>
 											</h4>
-											<p>EVX AUTO IMPORT คือผู้นำด้าน การนำเข้าและจัดจำหน่ายรถยนต์ไฟฟ้า (EV) ที่ทันสมัยที่สุด เราคัดสรรแบรนด์ชั้นนำจากทั่วโลก พร้อมบริการ Customization และ Smart Diagnostics ให้คุณได้สัมผัสกับประสบการณ์ขับขี่ที่ ล้ำยุค ปลอดมลพิษ และประหยัดพลังงาน</p>
+											<p id="evx"></p>
 											<div class="box-button">
 												<div id="defnic" class=" gps-button-wrapper">
 												</div>
@@ -440,10 +462,10 @@
 								<div class="grid">
 									<figure class="effect-duke"> <img class="lazyload position-relative" data-src="/assets/images/SMARTFRAME.png" alt="UNITY">
 										<figcaption> <img class="lazyload icon-banner " data-src="/assets/images/icon/icon-banner02.png" alt="UNITY">
-											<h4>Smart Farm
+											<h4>Farme X
 												<div class="border-bottom"></div>
 											</h4>
-											<p>เกษตรกรรมแบบดั้งเดิมกำลังถูกแทนที่ด้วย Smart Farm ที่ขับเคลื่อนด้วย AI, IoT และ Big Data เทคโนโลยีเหล่านี้ช่วยให้เกษตรกรสามารถ ตรวจสอบสภาพแวดล้อมแบบเรียลไทม์ ควบคุมการรดน้ำ ปุ๋ย และสภาพดินได้อย่างแม่นยำ</p>
+											<p id="farme_X"></p>
 											<div class="box-button">
 												<div id="defnic" class=" gps-button-wrapper">
 												</div>
@@ -459,7 +481,7 @@
 											<h4>AI Chat Bot
 												<div class="border-bottom"></div>
 											</h4>
-											<p>ในยุคดิจิทัล AI Chat Bot ได้เข้ามามีบทบาทสำคัญในการสื่อสารและบริการลูกค้า ไม่ว่าคุณจะใช้ในธุรกิจ อีคอมเมิร์ซ หรือบริการออนไลน์ ระบบแชทบอทช่วย ตอบกลับลูกค้าได้ทันที วิเคราะห์พฤติกรรม และมอบประสบการณ์ที่ รวดเร็วและเป็นส่วนตัว</p>
+											<p id="AI_Chat"></p>
 
 											<div class="box-button">
 												<div id="defnic" class=" gps-button-wrapper">
@@ -476,7 +498,7 @@
 											<h4>POS X
 												<div class="border-bottom"></div>
 											</h4>
-											<p>POS X คือระบบบริหารจัดการหน้าร้านแบบครบวงจรที่ช่วยให้ธุรกิจของคุณ ทำงานได้รวดเร็วขึ้น มีประสิทธิภาพ และแม่นยำ รองรับทั้งการชำระเงินแบบดิจิทัล การจัดการสต็อกสินค้า และการวิเคราะห์ยอดขาย</p>
+											<p id="Pos_X"></p>
 											<div class="box-button">
 												<div id="defnic" class=" gps-button-wrapper">
 												</div>
@@ -498,13 +520,11 @@
 				<div class="content">
 					<div class="box-our-data">
 						<div class="box-topic clear-pdb">
-							<h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">ที่ตั้งธุรกิจ</h3>
+							<h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" id="businessLocation"></h3>
 						</div>
 						<div class="line-topic" data-aos="fade-left-right" data-aos-duration="1000" data-aos-delay="200"></div>
 						<div class="clear"></div>
-						<p class="data" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-							เรามีที่ตั้งธุรกิจสำคัญในประเทศไทยและลาว เพื่อให้บริการเทคโนโลยีและนวัตกรรมที่ตอบโจทย์ความต้องการของลูกค้าทุกระดับ พร้อมสร้างความเชื่อมั่นและผลักดันการเติบโตของธุรกิจในยุคดิจิทัล
-						</p>
+						<p class="data" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" id="Location"></p>
 						<div class="clear"></div>
 						<ul>
 							<h2 class="txt-sub" style="color: #00c7e6; margin-top: 30px; font-size:30px">Laos</h2>
@@ -512,7 +532,7 @@
 								<figure class="snip1264"> <img data-src="/assets/images/location/EVX.png" alt="UNITY" class="lazyload">
 									<figcaption>
 										<h3>EVX AUTO IMPORT</h3>
-										<p> อนาคตของยานยนต์ไฟฟ้าอยู่ที่นี่! 🚗⚡EVX AUTO IMPORT: ศูนย์รวม EV ชั้นนำจากทั่วโลก 🌍 มาร่วมขับเคลื่อนอนาคตไปกับ EVX AUTO IMPORT – ผู้นำด้าน EV ที่คุณวางใจ!</p>
+										<p id="Location_evx"></p>
 									</figcaption>
 									<h2>EVX AUTO IMPORT</h2>
 								</figure>
@@ -521,10 +541,10 @@
 							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200">
 								<figure class="snip1264"> <img data-src="/assets/images/location/FarmX.png" alt="" class="lazyload">
 									<figcaption>
-										<h3>Smart Farm</h3>
-										<p>เกษตรอัจฉริยะ เปลี่ยนอนาคตของการเพาะปลูก 🌱🚜 เพิ่มผลผลิต ลดต้นทุน ด้วยเทคโนโลยี Smart Farm</p>
+										<h3>Farme X</h3>
+										<p id="Location_farme_X"></p>
 									</figcaption>
-									<h2>Smart Farm</h2>
+									<h2>Farme X</h2>
 								</figure>
 								<div class="clear"></div>
 							</li>
@@ -532,7 +552,7 @@
 								<figure class="snip1264"> <img data-src="/assets/images/location/HomeX.png" alt="" class="lazyload">
 									<figcaption>
 										<h3>HomeX</h3>
-										<p>ระบบบริหารโครงการก่อสร้างอัจฉริยะด้วย AI 🏗️🤖ควบคุม ติดตาม และวางแผนงานก่อสร้างได้ง่ายขึ้นด้วย HomeX</p>
+										<p id="Location_HomeX"></p>
 									</figcaption>
 									<h2>HomeX</h2>
 								</figure>
@@ -542,7 +562,7 @@
 								<figure class="snip1264"> <img data-src="/assets/images/location/Solar_X.png" alt="" class="lazyload">
 									<figcaption>
 										<h3>SolarX</h3>
-										<p>พลังงานสะอาดเพื่อโลกที่ยั่งยืน ☀️🔋เปลี่ยนแสงอาทิตย์ให้เป็นพลังงาน ลดค่าใช้จ่าย สร้างอนาคตที่ยั่งยืน</p>
+										<p id="Location_SolarX"></p>
 									</figcaption>
 									<h2>SolarX</h2>
 								</figure>
@@ -552,7 +572,7 @@
 								<figure class="snip1264"> <img data-src="/assets/images/location/POSX1.png" alt="" class="lazyload">
 									<figcaption>
 										<h3>POS X</h3>
-										<p>ระบบจุดขายอัจฉริยะที่ช่วยให้การขายง่ายขึ้น 🛍 จัดการร้านค้าของคุณได้ง่ายขึ้นด้วย POS X – ระบบที่ช่วยให้ทุกการขายเป็นเรื่องง่าย!</p>
+										<p id="Location_POS_X_1"></p>
 									</figcaption>
 									<h2>POS X</h2>
 								</figure>
@@ -565,7 +585,7 @@
 								<figure class="snip1264"> <img data-src="/assets/images/location/UNITY_X.png" alt="" class="lazyload">
 									<figcaption>
 										<h3>UNITY X</h3>
-										<p>UNITY X เป็นบริษัทเทคโนโลยีที่มุ่งพัฒนาโซลูชันดิจิทัลและนวัตกรรมทันสมัยเพื่อสนับสนุนธุรกิจ ด้วยการใช้เทคโนโลยีขั้นสูงในการสร้างแอปพลิเคชันและระบบสารสนเทศที่ตอบโจทย์ความต้องการของลูกค้า</p>
+										<p id="Location_UNITY_X"></p>
 									</figcaption>
 									<h2>UNITY X</h2>
 								</figure>
@@ -574,10 +594,10 @@
 							<li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="800">
 								<figure class="snip1264"> <img data-src="/assets/images/location/Smart_X.png" alt="" class="lazyload">
 									<figcaption>
-										<h3>Smart Home</h3>
-										<p>บ้านอัจฉริยะที่ให้คุณควบคุมทุกอย่างได้เพียงปลายนิ้วสัมผัส 🏡🤖เปลี่ยนบ้านธรรมดาให้กลายเป็นบ้านอัจฉริยะด้วยระบบ Smart Home</p>
+										<h3>Smart X</h3>
+										<p id="Location_Smart_X"></p>
 									</figcaption>
-									<h2>Smart Home</h2>
+									<h2>Smart X</h2>
 								</figure>
 								<div class="clear"></div>
 							</li>
@@ -585,7 +605,7 @@
 								<figure class="snip1264"> <img data-src="/assets/images/location/POSX2.png" alt="" class="lazyload">
 									<figcaption>
 										<h3>POS X</h3>
-										<p>ระบบจุดขายอัจฉริยะที่ช่วยให้การขายง่ายขึ้น 🛍 จัดการร้านค้าของคุณได้ง่ายขึ้นด้วย POS X – ระบบที่ช่วยให้ทุกการขายเป็นเรื่องง่าย!</p>
+										<p id="Location_POS_X_2"></p>
 									</figcaption>
 									<h2>POS X</h2>
 								</figure>
@@ -605,7 +625,7 @@
 			<section data-name="section08" class="section-desktop-index">
 				<div class="content">
 					<div class="box-topic clear-pdb">
-						<h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" class="aos-init aos-animate">ข่าวสารล่าสุด</h3>
+						<h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" class="aos-init aos-animate" id="Latest_news"></h3>
 					</div>
 					<div class="line-topic aos-init aos-animate" data-aos="fade-left-right" data-aos-duration="1000" data-aos-delay="200"></div>
 					<div class="clear"></div>
@@ -613,7 +633,7 @@
 						<ul>
 							<li class="box-img-news aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
 								<figure class="snip1273">
-									<img src="/assets/images/banner-cloud-respon2.png" alt="">
+									<img src="/assets/images/Ai_automated_contest.png" alt="">
 								</figure>
 								<div class="clear"></div>
 							</li>
@@ -621,29 +641,19 @@
 								<div class="line-news"></div>
 								<h2>
 									<p>
-									<p class="MsoNormal">Hackathon AI Haxxer 2025</p>
+									<p class="MsoNormal">AI AUTOMATED Contest 2025</p>
 									</p>
 								</h2>
 							</li>
 							<li class="box-detail-news aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">
 								<div class="line-news"></div>
 								<div style="font-size: 16px; line-height: 1.8; color: #333; margin: 20px;">
-									<p style="text-align: center;">
-										<strong>โอกาสของ AI Haxxer 2025: Sandbox VC</strong>
-									</p>
-									<p style="text-align: justify;">
-										มาร่วมกันจุดประกายไอเดีย เปลี่ยนโลกด้วย AI ชิงเงินรางวัล <strong>30,000 บาท</strong> ทีมละไม่เกิน 5 คน!
-										มาเป็นผู้สร้างสรรค์ มาเป็นผู้ลงมือทำ
-									</p>
-									<p style="background-color: #f4f4f4; padding: 15px; border-radius: 8px;">
-										<strong>หัวข้อ:</strong> ออกแบบสิ่งใหม่ๆ ใน <em>INTELLIGENT AUTOMATION</em>
-									</p>
-									<p style="text-align: center; margin-top: 20px;">
-										<strong>สมัครฟรี</strong> <br>
-										สแกน QR CODE เพื่อสมัครเข้าร่วม
-									</p>
+									<p style="text-align: center;" id="AI_Automated_1"></p>
+									<p style="text-align: justify;" id="AI_Automated_2"></p>
+									<p style="background-color: #f4f4f4; padding: 15px; border-radius: 8px;" id="AI_Automated_3"></p>
+									<p style="text-align: center; margin-top: 20px;" id="AI_Automated_4"></p>
 									<div style="text-align: center; margin-top: 20px;">
-										<img src="/assets/images/QR.png" alt="QR Code สมัคร" style="width: 200px; height: 200px; border-radius: 10px;">
+										<img src="/assets/images/QR_new.png" alt="QR Code สมัคร" style="width: 200px; height: 200px; border-radius: 10px;">
 									</div>
 								</div>
 							</li>
@@ -662,10 +672,10 @@
 					<img data-src="/assets/images/banner-cloud-respon.png" class="lazyload visible-xs visible-sm visible-md" alt="UNITY">
 					<div class="content">
 						<div class="box-text-banner-cloud">
-							<h4 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">เทคโนโลยีเพื่ออนาคต</h4>
+							<h4 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" id="Technology"></h4>
 							<div class="line-topic" data-aos="fade-left-right" data-aos-duration="1000" data-aos-delay="200"></div>
 							<div class="clear"></div>
-							<p class="color-white width-respon-clound" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">ก้าวสู่โลกอนาคตกับเทคโนโลยีที่เปลี่ยนแปลงทุกด้านของชีวิต ตั้งแต่การปฏิวัติการทำงานด้วย AI, เทคโนโลยี 5G, Blockchain, จนถึงการพัฒนา Smart Cities ร่วมอัปเดตข้อมูลล่าสุดเกี่ยวกับเทคโนโลยีที่กำลังจะทำให้โลกของเราเชื่อมต่อกันอย่างลึกซึ้งและมีประสิทธิภาพยิ่งขึ้น</p>
+							<p class="color-white width-respon-clound" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" id="Technology_Text"></p>
 							<div class="box-button" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
 								<div id="defnic" class=" gps-button-wrapper">
 								</div>
@@ -687,9 +697,9 @@
 								<img data-src="/assets/images/logo.png" class="lazyload" alt="UNITY">
 							</div>
 							<div class="box02 hidden-xs hidden-sm">
-								<a href="javascript:void(0);">เกี่ยวกับเรา</a>
+								<a href="javascript:void(0);" id="About_us"></a>
 								<a href="javascript:void(0);">Customer Service</a>
-								<a href="javascript:void(0);">โครงสร้างเว็บไซต์ <i class="fas fa-chevron-down icn-arrow-ft"></i></a>
+								<a href="javascript:void(0);" id="Website_structure"><i class="fas fa-chevron-down icn-arrow-ft"></i></a>
 							</div>
 							<div class="box03">
 								<a href="javascript:void(0);" rel="noopener">
@@ -761,6 +771,7 @@
 			$('#' + id).fadeIn();
 		}
 	</script>
+	<script src="/assets/js/index.js"></script>
 	<script src="/assets/js/aos.js" async></script>
 	<script src="/assets/js/main.js" async></script>
 	<!-- Images End -->
